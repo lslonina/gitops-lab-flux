@@ -38,6 +38,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: nginxhello
+    namespace: default
   update:
     path: ./deploy
     strategy: Setters
