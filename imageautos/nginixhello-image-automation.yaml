@@ -34,7 +34,7 @@ spec:
         {{ end -}}
     push:
       branch: main
-  interval: 1m0s
+  interval: 1m30s
   sourceRef:
     kind: GitRepository
     name: nginxhello
